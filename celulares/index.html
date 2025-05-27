@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Celulares</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo Tienda" class="logo" />
+    <h1>Tienda de Celulares</h1>
+    <nav>
+      <a href="#promos">Promociones</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>¡Las mejores marcas al mejor precio!</h2>
+    <p>Ofertas limitadas, ¡aprovecha ahora!</p>
+  </section>
+
+  <section id="promos" class="promociones">
+    <h2>Promociones</h2>
+    <div class="promo-cards">
+      <div class="promo">
+        <h3>Samsung Galaxy A34</h3>
+        <p>Antes: $300 – Ahora: $250</p>
+      </div>
+      <div class="promo">
+        <h3>iPhone 13</h3>
+        <p>Antes: $900 – Ahora: $799</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Catálogo de Celulares</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="img/1.jpeg" alt="Celular 1" />
+        <h3>Galaxy S23</h3>
+        <p>$799</p>
+      </div>
+      <div class="card">
+        <img src="img/iPhone 14.webp" alt="Celular 2" />
+        <h3>iPhone 14</h3>
+        <p>$999</p>
+      </div>
+      <div class="card">
+        <img src="img/Motorola Edge.jpeg" alt="Celular 3" />
+        <h3>Motorola Edge</h3>
+        <p>$699</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="sugerencias">
+    <h2>Sugerencias / Contacto</h2>
+    <form id="sugerenciaForm">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="Escribe tu sugerencia aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tienda de Celulares</p>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><img src="img/redes/fb.png" alt="Facebook" /></a>
+      <a href="https://instagram.com" target="_blank"><img src="img/redes/ig.png" alt="Instagram" /></a>
+      <a href="https://wa.me/1234567890" target="_blank"><img src="img/redes/wsp.png" alt="WhatsApp" /></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
